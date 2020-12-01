@@ -9,6 +9,7 @@
   - [¿Qué es ciencia de datos y big data? ¿Cómo afectan a mi negocio?](#qué-es-ciencia-de-datos-y-big-data-cómo-afectan-a-mi-negocio)
   - [Tipología de datos | ¿Qué tipo de información podemos analizar?](#tipología-de-datos--qué-tipo-de-información-podemos-analizar)
   - [Empresas data-driven | ¿Cómo crear empresas y culturas data-driven?](#empresas-data-driven--cómo-crear-empresas-y-culturas-data-driven)
+  - [¿Qué es inteligencia artificial y machine learning?](#qué-es-inteligencia-artificial-y-machine-learning)
 - [Herramientas y roles de trabajo en ciencia de datos](#herramientas-y-roles-de-trabajo-en-ciencia-de-datos)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
@@ -96,6 +97,28 @@ Características:
 
 **Resumen:**
 ![empresas_data_driven](https://imgur.com/PTKiq52.png)
+
+## ¿Qué es inteligencia artificial y machine learning?
+
+![ia_ml_dl](https://imgur.com/VNFFDiz.png)
+
+**Inteligencia Artificial** es la capacidad de las computadoras de mostrar un comportamiento “inteligente”.
+
+Mientras que **Machine Learning** es una de técnica que se utiliza para crear y mejorar dicho comportamiento. Esto mediante entrenamientos automáticos basados en la exposición a datos.
+
+Utilidad de **Machine Learning**:
+
+- Detección de fraudes
+- Búsqueda web
+- Anuncios a tiempo real
+- Análisis de textos
+- Next best action: Predecir la acción que un usuario va a tomar
+
+Al utilizar redes neuronales de gran profundidad, el aprendizaje automático se convierte en aprendizaje profundo o **deep learning**.
+
+![ia_ml_dl2](https://imgur.com/EtBWxrg.png)
+
+![ia_ml_dl_resumen](https://imgur.com/NA0uhS4.png)
 # Herramientas y roles de trabajo en ciencia de datos
 
 # Problema de negocio: análisis

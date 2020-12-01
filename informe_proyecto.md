@@ -10,6 +10,7 @@
   - [Tipología de datos | ¿Qué tipo de información podemos analizar?](#tipología-de-datos--qué-tipo-de-información-podemos-analizar)
   - [Empresas data-driven | ¿Cómo crear empresas y culturas data-driven?](#empresas-data-driven--cómo-crear-empresas-y-culturas-data-driven)
   - [¿Qué es inteligencia artificial y machine learning?](#qué-es-inteligencia-artificial-y-machine-learning)
+  - [¿Qué es deep learning? Análisis de imagen, audio y video](#qué-es-deep-learning-análisis-de-imagen-audio-y-video)
 - [Herramientas y roles de trabajo en ciencia de datos](#herramientas-y-roles-de-trabajo-en-ciencia-de-datos)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
@@ -119,6 +120,34 @@ Al utilizar redes neuronales de gran profundidad, el aprendizaje automático se 
 ![ia_ml_dl2](https://imgur.com/EtBWxrg.png)
 
 ![ia_ml_dl_resumen](https://imgur.com/NA0uhS4.png)
+
+## ¿Qué es deep learning? Análisis de imagen, audio y video
+
+Entrena a una computadora para que realice tareas, como el reconocimiento del habla, la identificación de imágenes o hacer predicciones.
+
+El deep learning configura parámetros básicos acerca de los datos y entrena a la computadora para que aprenda por cuenta propia reconociendo patrones mediante el uso de muchas capas de procesamiento.
+
+Ejemplo de imagenes para que una red neuronal detecte que es que.
+<div align="center"> 
+  <table>
+    <tr>
+    <td><img src="https://imgur.com/5msw8z0.png" width=""></td>
+    <td><img src="https://imgur.com/6Jg187z.png" width=""></td>
+    </tr>
+  </table>
+</div>
+
+Comparación entre Machine Learning y Deep Learning
+
+![ml_vs_dl](https://imgur.com/g9lohpw.png)
+
+Aplicando un ejemplo práctico utilizando Decision Tree como algoritmo de Machine Learning y Feature Extraction + Classification en Deep Learning, el cual lo hace todo la RN.
+
+![ejemplo_auto](https://imgur.com/UpOlPcM.png)
+
+> Anteriormente solo necesitábamos conjuntos de datos (matrices, vectores, datasets etc)
+> Pero en Deep Learning podemos tener otro tipo de datos. En lugar de tener datos numéricos, categóricos etc, ahora tenemos: **Imágenes, videos, audios, notas de voz, textos complejos**.
+
 # Herramientas y roles de trabajo en ciencia de datos
 
 # Problema de negocio: análisis

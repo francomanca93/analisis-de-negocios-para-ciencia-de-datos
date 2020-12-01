@@ -8,6 +8,7 @@
 - [El mundo de los datos: data science y machine learning](#el-mundo-de-los-datos-data-science-y-machine-learning)
   - [¿Qué es ciencia de datos y big data? ¿Cómo afectan a mi negocio?](#qué-es-ciencia-de-datos-y-big-data-cómo-afectan-a-mi-negocio)
   - [Tipología de datos | ¿Qué tipo de información podemos analizar?](#tipología-de-datos--qué-tipo-de-información-podemos-analizar)
+  - [Empresas data-driven | ¿Cómo crear empresas y culturas data-driven?](#empresas-data-driven--cómo-crear-empresas-y-culturas-data-driven)
 - [Herramientas y roles de trabajo en ciencia de datos](#herramientas-y-roles-de-trabajo-en-ciencia-de-datos)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
@@ -40,6 +41,61 @@ Características:
 - **Machine 2 Machine**: conexión de una máquina a otra máquina. Por ejemplo el GPS de tu teléfono para ubicar al conductor de Didi más cercano.
 - **Biométricos**: datos que te identifican como persona única, huella dactilar, tipo de sangre, tu voz, tu rostro para desbloquear tu smartphone, iris.
 
+## Empresas data-driven | ¿Cómo crear empresas y culturas data-driven?
+
+> ¿En qué consisten las empresas data-driven? Y ¿Qué se necesita para hacerlo?
+
+1. **Crear una cultura de datos: entenderla**
+
+- Hacer que todos los empleados tomen decisiones basados en datos. Para eso tienen que entender los tipos de datos visto en la sección anterior.
+
+2. **Recolectar información**
+
+- Almacenar y procesar toda la información.
+- No basarnos solo en una parte de la información, sino entender toda la información que llega a nosotros
+
+3. **Medir todo**
+
+- Entender el tamaño de la información
+- Entender el ritmo de crecimiento de los tipos de información que se producen. La información de precios podría crecer menos que los de ventas.
+
+4. **Datos relevantes y precisos**
+
+- Basarnos en la información que nos sirvan: tal para un estudio sea prioritario el tiempo, los tipos de clientes y si es el tiempo, cual es la frecuencia que deberíamos tomas (¿días, horas, minutos?)
+- Pensar muy bien qué información y con qué características serán importantes para un estudio en particular o para todo el modelo de negocio
+- Después tenemos que ver si la información es precisa y estándar (tipo de datos).
+  
+> Por ejemplo, en el caso de tener ingresos por ventas por diferentes monedas, de acuerdo con el país donde se transa, será necesario esta clasificación; de manera similar sucede con el uso horario. En ambos casos será necesario transformar a una denominación estándar.
+
+5. **Testear y crear hipótesis**
+
+- Tenemos que partir de una hipótesis **–una pregunta—**. El análisis tiene que partir de una pregunta específica.
+
+> Por ejemplo, para estudiar si las ventas de diciembre incrementaron, hipótesis: en invierno ¿el consumo de gas se incrementa?, entonces ¿las ventas se incrementarán entre octubre y enero?; en el estudio se enfocará en testear si dicha hipótesis es cierta o no.
+
+6. **Desde los insights de datos a las acciones**
+
+- Los insights son obtenidas de los resultados del estudio enfocado a probar si la hipótesis planteada era cierta o no.
+
+> Por ejemplo, un insight podría ser: efectivamente en diciembre los hogares consumen más gas; ya con esta información tendremos que decidir que acción debemos tomar.
+
+- ¿Cuál es la pregunta? >> ¿tenemos la información para validarla? >> ¿cómo lo convertimos en acción los resultados?
+
+- Bajo este enfoque las decisiones de acción son tomadas con datos **–Data driven**. Ya no en base a una intuición.
+- La intuición sirve para plantear las hipótesis, pero la acción solo será tomada si esta es validada.
+
+7. **Cumplir las regulaciones de datos**
+
+- No podemos tomar decisiones en base al género, información privada, etc. - Cumplir todas las regulaciones
+
+> La ética en los datos es muy importante
+
+8. **Automatizar**
+
+- Un estudio no tiene por qué ser hecha recurrentemente, sino automatizar la validación en cada periodo.
+
+**Resumen:**
+![empresas_data_driven](https://imgur.com/PTKiq52.png)
 # Herramientas y roles de trabajo en ciencia de datos
 
 # Problema de negocio: análisis

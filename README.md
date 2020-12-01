@@ -23,3 +23,5 @@ La ciencia y análisis de datos nos permiten recolectar información para transf
 > **Análisis cuanti-cualitativo de Top Offenders**
 
 Identificar a los usuarios que más quejas reportan al equipo de soporte en tu negocio, detecta por qué lo hacen, encuentra patrones y toma decisiones a partir de datos para lidiar con ellos.
+
+> [Apuntes y proyecto del curso](informe_proyecto.md)

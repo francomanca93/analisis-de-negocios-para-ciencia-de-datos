@@ -13,6 +13,7 @@
   - [¿Qué es deep learning? Análisis de imagen, audio y video](#qué-es-deep-learning-análisis-de-imagen-audio-y-video)
 - [Herramientas y roles de trabajo en ciencia de datos](#herramientas-y-roles-de-trabajo-en-ciencia-de-datos)
   - [Flujo de trabajo en ciencia de datos: fases, roles y oportunidades laborales](#flujo-de-trabajo-en-ciencia-de-datos-fases-roles-y-oportunidades-laborales)
+  - [Herramientas para cada etapa del análisis de datos](#herramientas-para-cada-etapa-del-análisis-de-datos)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
@@ -169,6 +170,21 @@ Con un poco mas de profundidad en los roles anteriormete descriptos tenemos algo
 
 Un poco mas seccionado con las herramientas podemos encontrar algo como: 
 ![roles3](https://imgur.com/4kOzUit.png)
+
+## Herramientas para cada etapa del análisis de datos
+
+- _**Ingeniero de Datos**_
+  - **SQL**: Nos ayuda a extraer información, nos ayuda a encontrar la información para la cual hacemos un estudio, lo más específica que queramos. Vamos a sintetizar una base de datos pequeña o gigante. Esto nos va a ayudar para poder entregar un cuadro de control, una evolución en un gráfico tanto del presente, pasado y futuro. Un ejemplo es un embudo.
+
+![](https://imgur.com/uL1iDPJ.png)
+
+- _**Analista de datos**_
+  - **R**: Es un lenguaje mas orientado a la estadística, nos ayuda a sacar P-Values o intervalos de confianza. Es un lenguaje mas orientado a la econometría. Ambos tiene apoyos adicionales en R son ggplot2 (graficos muy visuales) y dplyr (reorganizar la información).
+
+  - **Python**: Es mas basado en la ingeniería, tiene un enfoque mas parecido a los lenguajes de programación como Java o C++. En Python tenemos Pandas y Numpy que nos sirven para organizar la información y no tener que escribir tanto código.
+
+![](https://imgur.com/wo5fwLo.png)
+
 # Problema de negocio: análisis
 
 # Problema de negocio: implementación

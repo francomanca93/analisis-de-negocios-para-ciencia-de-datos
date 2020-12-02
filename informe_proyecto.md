@@ -20,6 +20,8 @@
       - [Clausulas SQL para DQL](#clausulas-sql-para-dql)
       - [Operadores Lógicos SQL para DQL](#operadores-lógicos-sql-para-dql)
       - [Funciones agregadas SQL para DQL](#funciones-agregadas-sql-para-dql)
+  - [Cómo estructurar queries en SQL](#cómo-estructurar-queries-en-sql)
+    - [10 preguntas frecuentes de SQL en entrevistas de trabajo](#10-preguntas-frecuentes-de-sql-en-entrevistas-de-trabajo)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
@@ -218,6 +220,98 @@ El Lenguaje de Consulta Estructurado (SQL), es un tipo de lenguaje de programaci
 ![](https://imgur.com/pl2mUo5.png)
 
 > [Un poco mas de profundidad en SQL](https://www.ticportal.es/glosario-tic/base-datos-sql)
+
+## Cómo estructurar queries en SQL
+
+El procedimiento para hacer convertir los datos contenido en una tabla en información útil es:
+
+1. Tener claro el **OBJETIVO**, esta es la pregunta que nos hacemos.
+2. Tener las **TABLA** o las **TABLAS** en algún motor de bases de datos relacional, o puede ser en excel. 
+3. Debemos tener una **COMPRENSIÓN** de los datos, esto es saber **como se llama** la tabla o las tablas y **que columnas tiene**.
+4. Escribimos la **QUERY en SQL** sabiendo **DQL**.
+5. Obtenemos el resultado.
+
+Ejemplo: 
+![](https://imgur.com/Arlo7R6.png)
+
+### 10 preguntas frecuentes de SQL en entrevistas de trabajo
+
+1. Query SQL para encontrar el segundo salario más alto de los empleados:
+
+```sql
+SELECT MAX(Salary)
+FROM Employee
+WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employee );
+```
+
+2. SQL para encontrar el salario máximo de cada departamento.
+
+```sql
+SELECT DeptID, MAX(Salary)
+FROM Employee
+GROUP BY DeptID.
+```
+
+3: Escriba una consulta SQL para mostrar la fecha actual.
+
+```sql
+SELECT GetDate();
+```
+
+4: Escriba una consulta SQL para comprobar si la fecha pasada a la consulta es la fecha del formato dado o no.
+
+```sql
+SELECT ISDATE(‘1/08/13’) AS “MM/DD/YY”;
+```
+
+
+5: Escriba una consulta SQL para imprimir el nombre del empleado distinto cuya fecha de nacimiento es entre el 01/01/1960 al 31/12/1975.
+
+```sql
+SELECT DISTINCT EmpName
+FROM Employees
+WHERE DATE BETWEEN ‘01/01/1960’ AND ‘31/12/1975’;
+```
+
+6. Escriba una consulta SQL para encontrar el número de empleados según el género cuya fecha de nacimiento sea entre el 01/01/1960 y el 31/12/1975.
+
+```SQL
+SELECT COUNT(*), sex
+FROM Employees
+WHERE DATE BETWEEN ‘01/01/1960’ AND ‘31/12/1975’
+GROUP BY sex
+```
+
+7. Escriba una consulta SQL para encontrar un empleado cuyo salario sea igual o superior a 10000.
+
+```SQL
+SELECT EmpName
+FROM  Employees
+WHERE  Salary>=10000;
+```
+
+8. Escriba una consulta SQL para encontrar el nombre del empleado cuyo nombre comience con "M"
+
+```SQL
+SELECT *
+FROM Employees
+WHERE EmpName LIKE ‘M%’;
+```
+
+9. busque todos los registros de empleados que contengan la palabra “Joe”, independientemente de si se almacenó como JOE, Joe o joe.
+
+```SQL
+SELECT *
+FROM Employees
+WHERE UPPER(EmpName) LIKE '%JOE%';
+```
+
+10. Escriba una consulta SQL para encontrar el año desde la fecha.
+
+```SQL
+SELECT YEAR(GETDATE()) as “Year”;
+```
+
 # Problema de negocio: análisis
 
 # Problema de negocio: implementación

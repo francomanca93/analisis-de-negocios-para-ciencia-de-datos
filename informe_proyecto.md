@@ -12,6 +12,7 @@
   - [¿Qué es inteligencia artificial y machine learning?](#qué-es-inteligencia-artificial-y-machine-learning)
   - [¿Qué es deep learning? Análisis de imagen, audio y video](#qué-es-deep-learning-análisis-de-imagen-audio-y-video)
 - [Herramientas y roles de trabajo en ciencia de datos](#herramientas-y-roles-de-trabajo-en-ciencia-de-datos)
+  - [Flujo de trabajo en ciencia de datos: fases, roles y oportunidades laborales](#flujo-de-trabajo-en-ciencia-de-datos-fases-roles-y-oportunidades-laborales)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
@@ -150,6 +151,24 @@ Aplicando un ejemplo práctico utilizando Decision Tree como algoritmo de Machin
 
 # Herramientas y roles de trabajo en ciencia de datos
 
+## Flujo de trabajo en ciencia de datos: fases, roles y oportunidades laborales
+
+![roles1](https://imgur.com/zXllOA6.png)
+
+- **Data Engineer (Ingenierio de datos)**: hace la conexión entre el dispositivo y la creación de una base de datos.
+Trabajan haciendo APIs, ETLs, conectores y las herramientas más usadas son SQl y NoSQL
+
+- **Analista Business Intelligence**: a partir de la información que creo el ingeniero de datos extrae la información que le interesa, crea cuadros de control, automatiza estos procedimientos y las herramientas más usadas son SQL y Excel.
+
+- **Data Scientist (Cientifico de datos)**: sabe el rol del analista, extraer la información, y sabe predecir. Las herramientas más usadas son R y Python.
+
+- **Data Translator**: persona que pueda interpretar los datos y pueda comunicarnos con los otros equipos de negocios. Experto en la necesidad de negocio.
+
+Con un poco mas de profundidad en los roles anteriormete descriptos tenemos algo como:
+![roles2](https://imgur.com/eajizv7.png)
+
+Un poco mas seccionado con las herramientas podemos encontrar algo como: 
+![roles3](https://imgur.com/4kOzUit.png)
 # Problema de negocio: análisis
 
 # Problema de negocio: implementación

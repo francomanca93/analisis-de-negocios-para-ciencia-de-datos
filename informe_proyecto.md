@@ -22,6 +22,7 @@
       - [Funciones agregadas SQL para DQL](#funciones-agregadas-sql-para-dql)
   - [Cómo estructurar queries en SQL](#cómo-estructurar-queries-en-sql)
     - [10 preguntas frecuentes de SQL en entrevistas de trabajo](#10-preguntas-frecuentes-de-sql-en-entrevistas-de-trabajo)
+  - [Conflictos y retos actuales sobre la ética y tratamiento de datos](#conflictos-y-retos-actuales-sobre-la-ética-y-tratamiento-de-datos)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
@@ -312,6 +313,14 @@ WHERE UPPER(EmpName) LIKE '%JOE%';
 SELECT YEAR(GETDATE()) as “Year”;
 ```
 
+## Conflictos y retos actuales sobre la ética y tratamiento de datos
+
+> "… ¿Cómo tiene que avanzar la ley digital para explicar una realidad? Por ley, o la falta de esta, es que la tecnología avanza a un ritmo diferente –para unos amenazador o muy retador para otros— pero la ley no lo ha hecho a este ritmo solo la digitalización…"
+> 
+> ¿Quien quieres ser en los datos?
+> ¿Cuanto quieres compartir?
+
+> VER [The Social Dilemma en Netflix](https://www.imdb.com/title/tt11464826/)
 # Problema de negocio: análisis
 
 # Problema de negocio: implementación

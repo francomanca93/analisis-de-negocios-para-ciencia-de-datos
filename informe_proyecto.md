@@ -14,6 +14,12 @@
 - [Herramientas y roles de trabajo en ciencia de datos](#herramientas-y-roles-de-trabajo-en-ciencia-de-datos)
   - [Flujo de trabajo en ciencia de datos: fases, roles y oportunidades laborales](#flujo-de-trabajo-en-ciencia-de-datos-fases-roles-y-oportunidades-laborales)
   - [Herramientas para cada etapa del análisis de datos](#herramientas-para-cada-etapa-del-análisis-de-datos)
+  - [¿Qué es y cómo usar una base de datos relacional con SQL?](#qué-es-y-cómo-usar-una-base-de-datos-relacional-con-sql)
+    - [SQL](#sql)
+      - [Comando SQL: DQL (Data Query Language)](#comando-sql-dql-data-query-language)
+      - [Clausulas SQL para DQL](#clausulas-sql-para-dql)
+      - [Operadores Lógicos SQL para DQL](#operadores-lógicos-sql-para-dql)
+      - [Funciones agregadas SQL para DQL](#funciones-agregadas-sql-para-dql)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
@@ -185,6 +191,33 @@ Un poco mas seccionado con las herramientas podemos encontrar algo como:
 
 ![](https://imgur.com/wo5fwLo.png)
 
+##  ¿Qué es y cómo usar una base de datos relacional con SQL?
+
+El Lenguaje de Consulta Estructurado (SQL), es un tipo de lenguaje de programación que ayuda a solucionar problemas específicos o relacionados con la definición, manipulación e integridad de la información representada por los datos que se almacenan en las bases de datos.
+
+¿Por qué es importante aprender SQL?
+
+- SQL simplifica tu código
+- SQL te ahorrará en mucho
+- Mejorarás tu lógica de programación aprendiendo SQL
+- Tu aplicación puede ejecutarse más rápidamente
+- SQL puede hacer que tu aplicación se vuelva independiente de los cambios en los datos.
+- SQL se mantiene en constante evolución pero el núcleo de SQL cambia muy poco
+- Eficacia en la solución de problemas
+
+![](https://imgur.com/0QxpCCm.png)
+### SQL
+
+#### Comando SQL: DQL (Data Query Language)
+![](https://imgur.com/cfzaTpS.png)
+#### Clausulas SQL para DQL
+![](https://imgur.com/NBjOr4S.png)
+#### Operadores Lógicos SQL para DQL
+![](https://imgur.com/JFHv1vm.png)
+#### Funciones agregadas SQL para DQL 
+![](https://imgur.com/pl2mUo5.png)
+
+> [Un poco mas de profundidad en SQL](https://www.ticportal.es/glosario-tic/base-datos-sql)
 # Problema de negocio: análisis
 
 # Problema de negocio: implementación

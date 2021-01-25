@@ -24,6 +24,7 @@
     - [10 preguntas frecuentes de SQL en entrevistas de trabajo](#10-preguntas-frecuentes-de-sql-en-entrevistas-de-trabajo)
   - [Conflictos y retos actuales sobre la ética y tratamiento de datos](#conflictos-y-retos-actuales-sobre-la-ética-y-tratamiento-de-datos)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
+  - [Aplica técnicas de storytelling para convertir problemas de datos en historias](#aplica-técnicas-de-storytelling-para-convertir-problemas-de-datos-en-historias)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
 # El mundo de los datos: data science y machine learning
@@ -316,11 +317,35 @@ SELECT YEAR(GETDATE()) as “Year”;
 ## Conflictos y retos actuales sobre la ética y tratamiento de datos
 
 > "… ¿Cómo tiene que avanzar la ley digital para explicar una realidad? Por ley, o la falta de esta, es que la tecnología avanza a un ritmo diferente –para unos amenazador o muy retador para otros— pero la ley no lo ha hecho a este ritmo solo la digitalización…"
-> 
+>
 > ¿Quien quieres ser en los datos?
 > ¿Cuanto quieres compartir?
 
 > VER [The Social Dilemma en Netflix](https://www.imdb.com/title/tt11464826/)
 # Problema de negocio: análisis
+
+## Aplica técnicas de storytelling para convertir problemas de datos en historias
+
+El objetivo del **Storytelling** es enamorar al oyente. Esto es para que todas las personas de la empresa puedan entender y les importe el problema en cuestión. Sabiendo esto debemos estructurar en como vamos a contar nuestra historia:
+
+> - **PROBLEMA: ¿Que queremos resolver?, hipótesis de la cual estamos partiendo.**
+> - **SOLUCIÓN: Debemos plantear e imaginar hacia donde queremos ir.**
+> - **ALCANCE: ¿Que pretendemos explicar con este análisis?**
+
+**Caso práctico:**
+
+- **Problema (Hipótesis):** Algunos clientes contactan a soporte en exceso.
+  - No los podemos identificar.
+  - No podemos prevenir este comportamiento.
+  - Analisis con una distribución normal. Tenemos puntos extremos los cuales serán anomalos y son los que queremos identificar.
+- **Solución**: Script que identifique y clasifique a los **Top Offenders**.
+  - Entender sus motivaciones - clasificarlos.
+  - Definir acciones para prevenir esta tendencia.
+- **Alcance**: LATAM con distinción por ciudades y mes a mes. (Siempre lo mas grande posible.)
+  - Clientes.
+  - Actualización mensual.
+  - Hacer una distinción geogragica.
+
+> **Target**: Los clientes de Latinoametica con distinción por ciudad y viendo esto mes a mes, de forma automática.
 
 # Problema de negocio: implementación

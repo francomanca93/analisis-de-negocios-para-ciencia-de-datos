@@ -25,6 +25,10 @@
   - [Conflictos y retos actuales sobre la ética y tratamiento de datos](#conflictos-y-retos-actuales-sobre-la-ética-y-tratamiento-de-datos)
 - [Problema de negocio: análisis](#problema-de-negocio-análisis)
   - [Aplica técnicas de storytelling para convertir problemas de datos en historias](#aplica-técnicas-de-storytelling-para-convertir-problemas-de-datos-en-historias)
+  - [Cómo estructurar un caso de negocio](#cómo-estructurar-un-caso-de-negocio)
+    - [¿Qué?](#qué)
+    - [¿Por qué?](#por-qué)
+    - [¿Cómo?](#cómo)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
 # El mundo de los datos: data science y machine learning
@@ -347,5 +351,40 @@ El objetivo del **Storytelling** es enamorar al oyente. Esto es para que todas l
   - Hacer una distinción geogragica.
 
 > **Target**: Los clientes de Latinoametica con distinción por ciudad y viendo esto mes a mes, de forma automática.
+
+## Cómo estructurar un caso de negocio
+
+Debemos desglosar un problema de negocio en una hipótesis estructurada:
+
+### ¿Qué?
+
+> ¿Qué? > Problema de negocio -> Hipótesis: Partir de una pregunta específica.
+
+### ¿Por qué?
+
+> ¿Por qué? > Clasificar todos los motivos y sistematizarlo en pocas categorías, ejemplo:
+
+- Motivaciones económicas
+- Preguntas
+- Problemas tecnológicos (relacionado con problema de como comunica la empresa).
+- Política de la empresa.
+
+### ¿Cómo?
+
+> ¿Cómo? > Estrategia de cómo vamos a diseñar y organizar todo el análisis.
+
+1. **Análisis cuantitativo**. Debe ir siempre primero ya que es toda la información. Hacer una clasificación numérica.
+2. **Análisis cualitativo**. Buscar categorías en función de texto. Nos ayuda a identificar características, tipos, relacionados con el problema.
+3. **Matriz cuantitativa-cualitativa**. Poner en conjunto la información, entender los números y explicarlos más a profundidad.
+4. **Acciones de prevención**. Definir acciones con la información que tenemos. Pasar de los insights a acciones.
+5. **Validación**. Verificar si nuestro análisis ha servido y si nuestras acciones de prevención están teniendo efecto.
+
+> Resumen:
+>
+> 1. Identificar datos.
+> 2. Encontrar categorias.
+> 3. Poner en conjunto esta información.
+> 4. Crear acciones con esta información.
+> 5. Validar que todo nuestro estudio esté sirviendo.
 
 # Problema de negocio: implementación

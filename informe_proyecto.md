@@ -29,6 +29,11 @@
     - [¿Qué?](#qué)
     - [¿Por qué?](#por-qué)
     - [¿Cómo?](#cómo)
+  - [Análisis cuantitativo en un caso de negocio](#análisis-cuantitativo-en-un-caso-de-negocio)
+    - [Analisis cuantitativo: Primeros pasos](#analisis-cuantitativo-primeros-pasos)
+    - [Analisis cuantitativo: Mapeo](#analisis-cuantitativo-mapeo)
+    - [Hipótesis](#hipótesis)
+    - [Analisis cuantitativo: aplicación](#analisis-cuantitativo-aplicación)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
 # El mundo de los datos: data science y machine learning
@@ -326,6 +331,7 @@ SELECT YEAR(GETDATE()) as “Year”;
 > ¿Cuanto quieres compartir?
 
 > VER [The Social Dilemma en Netflix](https://www.imdb.com/title/tt11464826/)
+
 # Problema de negocio: análisis
 
 ## Aplica técnicas de storytelling para convertir problemas de datos en historias
@@ -387,4 +393,62 @@ Debemos desglosar un problema de negocio en una hipótesis estructurada:
 > 4. Crear acciones con esta información.
 > 5. Validar que todo nuestro estudio esté sirviendo.
 
+## Análisis cuantitativo en un caso de negocio
+
+### Analisis cuantitativo: Primeros pasos
+
+![pasos_analisis_cuantitativo](https://imgur.com/mZg57Sp.png)
+
+1. **Descargar la información.**
+   1. Descargar información desde SQL o con SQL.
+   2. Nuestra pregunta: ¿Quienes pueden ser esos TOP OFFENDERS?
+   3. Descargar la información genérica de todos los clientes que hayan hecho por lo menos 1 queja.
+2. **Identificar**.
+   1. Debemos definir las variables que nos ayudarán a identificar si alguien es TOP OFFENDER.
+   2. En la imagen podemos ver las variables.
+   3. Las variables identificadas serán a lo que se le prestará atención para identificar patrones.
+       - Madurez. Experiencia del usuario utilizando la plataforma, lo evaluamos al verificar el número de comprar realizadas.
+       - Quejas mensuales. Número de quejas que hizo un cliente o usuario.
+       - Compras Mensuales. Evaluar el numero de compras y el número de quejas correspondientes a esas compras. Encontrar una relación de comportamiento.
+       - Gasto mensual. Tomar en cuenta el tipo de producto y su complejidad, lo cuál va relacionado muchas veces con el precio del mismo.
+       - Créditos y dinero devuelto. Identificar si es una persona que busca una compensación económica.
+       - Margen operativo neto. Es el Rendimiento. Que te queda como empresa a partir del comportamiento del usuario o cliente.
+         - (Lo que vendí x precio de lo que vendí)- recursos de soporte post venta - Dinero devuelto == Cuanto nos queda a la empresa.
+
+3. **Definir**
+   1. **Objetivo** = encontrar una segmentación con base en la rentabilidad.Si un usuario es más rentable(compra más), le permito que se queje más.
+   2. **Threshold**(límite). Definir el límite entre una persona que sus quejas sean normales y otra que excede las quejas normales. Definir un Threshold para cada categoría.
+
+### Analisis cuantitativo: Mapeo
+
+> Se hace un mapeo de los datos.
+
+Se observa en la siguiente lista los usuarios que almenos se han quejado una vez.
+
+**Ratio de contacto = Promedio quejas / Promedio compras**
+
+Debemos porcentuar los datos para saber el peso que tiene realmete cada uno, ya que el volumen de personas por cada categoria es diferente.
+
+![mapeo](https://imgur.com/mfm5Wi1.png)
+
+### Hipótesis
+
+Hipótesis inicial: Lo usuarios que han realizado más compras se quejan menos porque ya entienden mejor la plataforma.
+
+![hipotesis](https://imgur.com/yT7sOol.png)
+
+Vemos en la gráfica como nuestra teoria inicial es válida. Lo que hicimos fue separar los usuarios nuevos de los experimentados. El criterio fue que los usuarios que tenia menos de 10 compras erán nuevos.
+
+Con lo dicho anteriormente graficamos a los usuario nuevos y experimentado. Se puede observar como el ratio de contacto en los usuarios experimentados es cercano a 0 en la gráfica de arriba. En cambio en los usuarios menos experimentados las quejas son mayores confirmando nuestra hipotesis.
+
+### Analisis cuantitativo: aplicación
+
+![](https://imgur.com/fDHcC5Y.png)
+
+Se busca impactar el minimo grupo de personas posibles y afectar al maximo posible el numero de quejas. Poco usuarios, muchas quejas
+
+Afectando el 20% de los usuarios regulares atacamos al 35% de las quejas.
+Afectando el 5% de los usuarios bronca atacamos al 17% de las quejas.
+Afectando el 1% de los usuarios plata atacamos al 7% de las quejas.
+Afectando el 1% de los usuarios oro atacamos al 7% de las quejas.
 # Problema de negocio: implementación

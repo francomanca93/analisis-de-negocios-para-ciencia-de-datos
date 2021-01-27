@@ -34,6 +34,7 @@
     - [Analisis cuantitativo: Mapeo](#analisis-cuantitativo-mapeo)
     - [Hipótesis](#hipótesis)
     - [Analisis cuantitativo: aplicación](#analisis-cuantitativo-aplicación)
+  - [Análisis cualitativo en un caso de negocio](#análisis-cualitativo-en-un-caso-de-negocio)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
 # El mundo de los datos: data science y machine learning
@@ -451,4 +452,23 @@ Afectando el 20% de los usuarios regulares atacamos al 35% de las quejas.
 Afectando el 5% de los usuarios bronca atacamos al 17% de las quejas.
 Afectando el 1% de los usuarios plata atacamos al 7% de las quejas.
 Afectando el 1% de los usuarios oro atacamos al 7% de las quejas.
+
+## Análisis cualitativo en un caso de negocio
+
+![clus-vs-clas](https://imgur.com/BEmJv1O.png)
+
+![](https://imgur.com/1SUAsxA.png)
+
+**Clusterizar**: Agrupar las problemáticas, motivaciones y contactos por parte de los clientes a las que nos enfrentamos. Este ejemplo se clasificaron en 4 categorías las más de 500 tipos contactos:
+
+- Motivación económica. Buscan que se les devuelva el dinero. Ésta es la más grave ya que además de ser una queja, se les devuelve el dinero.
+- Preguntas. Los clientes tienen dudas.
+- Problemas tecnológicos. Relevante para identificar fallas técnicas del servicio o producto.
+- Política de empresa.
+
+![](https://imgur.com/DCNc2gD.png)
+
+**Clasificación**: Definir los motivos detrás de los mensajes, cuando los hayamos clasificado dentro de una categoría profundizaremos en los motivos de contacto de una manera geolocalizada por lo que tendremos especificidad en cada contexto social.
+
+
 # Problema de negocio: implementación

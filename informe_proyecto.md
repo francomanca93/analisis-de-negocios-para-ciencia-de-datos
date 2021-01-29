@@ -37,6 +37,7 @@
   - [Análisis cualitativo en un caso de negocio](#análisis-cualitativo-en-un-caso-de-negocio)
   - [Fusión cuanti-cualitativa en un caso de negocio](#fusión-cuanti-cualitativa-en-un-caso-de-negocio)
   - [¿Qué es minería de texto? ¿Cómo usarla para obtener información adicional?](#qué-es-minería-de-texto-cómo-usarla-para-obtener-información-adicional)
+  - [Variación de comportamientos a partir de la geolocalización](#variación-de-comportamientos-a-partir-de-la-geolocalización)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
 # El mundo de los datos: data science y machine learning
@@ -499,5 +500,15 @@ Por ejemplo: Twitter, tiene su base de negocio en la exploración de los mensaje
 En la caso siguiente se analizaron los mensajes dejados por los usuarios que se han quejado, y se llego a ciertas conclusiones vistas en el gráfico.
 
 ![](https://imgur.com/0B7iDfN.png)
+
+## Variación de comportamientos a partir de la geolocalización
+
+Relevancia del comportamiento de acuerdo al origen geográfico por país, ciudad, distrito.
+
+En el caso de top offenders se creó un gráfico que compara las quejas vs compras de acuerdo al origen geográfico de las mismas, a nivel de ciudad. Se espera obtener una línea de 45º si el comportamiento de los resultados es normal como se observa en el gráfico.
+
+![](https://imgur.com/weI8RGD.png)
+
+Aquellas ciudades que se alejen de la línea son aquellas que tienen más top offenders de lo normal. Las ciudades con más top offenders son Puebla, Querétaro, Toluca; esto se define al observar que las ciudades se encuentran más alejadas del eje normal y más cercanas al eje de las quejas.
 
 # Problema de negocio: implementación

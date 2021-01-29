@@ -36,6 +36,7 @@
     - [Analisis cuantitativo: aplicación](#analisis-cuantitativo-aplicación)
   - [Análisis cualitativo en un caso de negocio](#análisis-cualitativo-en-un-caso-de-negocio)
   - [Fusión cuanti-cualitativa en un caso de negocio](#fusión-cuanti-cualitativa-en-un-caso-de-negocio)
+  - [¿Qué es minería de texto? ¿Cómo usarla para obtener información adicional?](#qué-es-minería-de-texto-cómo-usarla-para-obtener-información-adicional)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
 # El mundo de los datos: data science y machine learning
@@ -486,5 +487,17 @@ Para este análisis se utiliza **una tabla con un mapa de calor** para resaltar 
 ![](https://imgur.com/7e8qgSp.png)
 
 Se puede observar que los clientes menos experimentados quieren devoluciones y los clientes mas experimentados quieren soluciones a problemas tecnologicos y politicas de empresa. Se puede obsercar que los clientes experimetados son mas fieles.
+
+## ¿Qué es minería de texto? ¿Cómo usarla para obtener información adicional?
+
+La **minería de textos** es una rama específica de la **minería de datos** que se refiere al proceso de analizar y derivar información nueva de textos. Por medio de la identificación de patrones o correlaciones entre los términos se logra encontrar información que no está explícita dentro del texto. Los textos que se usan como recursos pueden ser páginas web, libros, correos electrónicos, reseñas de clientes, artículos, entre otros.
+
+La minería de textos es un área multidisciplinaria basada en la recuperación de información, aprendizaje automático, estadísticas y la lingüística computacional. Como la mayor parte de la información (más de un 80%) se encuentra actualmente almacenada como texto, se cree que la minería de textos tiene un gran valor comercial.
+
+Por ejemplo: Twitter, tiene su base de negocio en la exploración de los mensajes.
+
+En la caso siguiente se analizaron los mensajes dejados por los usuarios que se han quejado, y se llego a ciertas conclusiones vistas en el gráfico.
+
+![](https://imgur.com/0B7iDfN.png)
 
 # Problema de negocio: implementación

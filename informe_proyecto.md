@@ -39,6 +39,9 @@
   - [¿Qué es minería de texto? ¿Cómo usarla para obtener información adicional?](#qué-es-minería-de-texto-cómo-usarla-para-obtener-información-adicional)
   - [Variación de comportamientos a partir de la geolocalización](#variación-de-comportamientos-a-partir-de-la-geolocalización)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
+  - [Acciones, algoritmos y toma de decisiones según los resultados del análisis](#acciones-algoritmos-y-toma-de-decisiones-según-los-resultados-del-análisis)
+    - [Algoritmos usados](#algoritmos-usados)
+    - [Acciones](#acciones)
 
 # El mundo de los datos: data science y machine learning
 
@@ -512,3 +515,25 @@ En el caso de top offenders se creó un gráfico que compara las quejas vs compr
 Aquellas ciudades que se alejen de la línea son aquellas que tienen más top offenders de lo normal. Las ciudades con más top offenders son Puebla, Querétaro, Toluca; esto se define al observar que las ciudades se encuentran más alejadas del eje normal y más cercanas al eje de las quejas.
 
 # Problema de negocio: implementación
+
+## Acciones, algoritmos y toma de decisiones según los resultados del análisis
+
+En la siguiente imagen se ve los algoritmos que se utilizarón para realizar el estudio.
+
+![](https://imgur.com/vAhFlnz.png)
+
+### Algoritmos usados
+
+- **Minería de texto**: es el analisis de las palabras
+- **Encontrar correlaciones y patrones de comportamiento**: por ejemplo aprender si los usuarios que mas compran son los que mas se quejan, y porque lo hacen, etc.
+- **Arboles de decisiones**: Nos ayudan a la toma de decisiones, partiendo de una hipótesis A o una hipótesis B y nos iremos acercando con teoría de juegos para predecir cual es la mejor estrategia.
+- **Validación con bayesianos**: la estadística bayesiana es muy útil para identificar patrones que se comportan de maneja conjunta. Por ej. cual es la probabilidad que si yo aviso a un usuario de que es un top offender, reincida o lo entienda y deje de comportarse asi.
+- **Cadenas de Montecarlo**: Son probabilidades concatenadas, conjuntas. Por ej. si un mes fue top offender, el mes siguiente lo va a ser? Ya no lo sera?. Son estudios que se hacen después de nuestro análisis, son métodos de validación. Es ver como impacto el modelo.
+
+### Acciones
+
+- **Taggear, identificar a los top offenders**: saber quienes son y taggearlos, para saber si ya reincidió una vez, si darle beneficios o no.
+- **Advertirlos**.
+- **Llamar usuarios**: en los mejores clientes, es mejor llamarlos y se obtiene un trato personalizado.
+- **Bloquear usuarios**: es en casos extremos.
+- **Validación con A/B test**: donde la A puede ser una llamada, y la B puede ser mandarles un mensaje y ver el comportamiento de cada uno para ver cual funciono mejor.

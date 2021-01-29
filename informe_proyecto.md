@@ -42,6 +42,7 @@
   - [Acciones, algoritmos y toma de decisiones según los resultados del análisis](#acciones-algoritmos-y-toma-de-decisiones-según-los-resultados-del-análisis)
     - [Algoritmos usados](#algoritmos-usados)
     - [Acciones](#acciones)
+- [Conclusión sobre el analisis de negocios para la ciencia de datos](#conclusión-sobre-el-analisis-de-negocios-para-la-ciencia-de-datos)
 
 # El mundo de los datos: data science y machine learning
 
@@ -537,3 +538,50 @@ En la siguiente imagen se ve los algoritmos que se utilizarón para realizar el 
 - **Llamar usuarios**: en los mejores clientes, es mejor llamarlos y se obtiene un trato personalizado.
 - **Bloquear usuarios**: es en casos extremos.
 - **Validación con A/B test**: donde la A puede ser una llamada, y la B puede ser mandarles un mensaje y ver el comportamiento de cada uno para ver cual funciono mejor.
+
+# Conclusión sobre el analisis de negocios para la ciencia de datos
+
+En curso se apredio desde lo mas básico:
+
+- ¿Que es una tabla?
+- ¿Que es una base de datos?
+- ¿Que hace un cientifico de datos?
+- ¿Que hace un ingeniero de datos?
+- ¿Que hace un analista de datos?
+
+Luego pasamos a entender mas sobre los datos:
+
+- ¿Que herramientas se utilizan?
+- ¿Que tipos de datos hay en el mundo?... numerica, categorica, de videos, de imagenes, de sonidos
+- ¿Para que almacenamos esta informacion?
+- ¿Que empresas se encuentran haciendo esto.?
+
+Luego de entender cuestiones basicas y entender las caracteriscas de los datos analizamos como transformar problemas de negocio en historias con **Storytelling** y como llevarlo adelante:
+
+- Plantearnos la hipotesis de un problema
+- ¿Que datos tenemos para solucionar nuestro problema?, numericos, que categorias, que ciudades, que informacion geografica, temporal
+- y... ¿como ponemos a toda esta en conjunto?.
+- ¿Como tomar accion a partir de esto?.
+
+Preguntas que se fueron resolviendo en el camino...
+
+Finalmente ver el impacto de hacer un analisis de negocio a partir de los datos.
+
+Luego de haber entendido esas preguntas, me queda para mi...
+
+- ¿Quien quiero ser dentro de este mundo, de los datos?
+- ¿Cual es el rol que mas me gusta?
+
+y algo que me moviliza bastante:
+
+**¿Cual es el criterio de etica con toda esta informacion que generamos?**
+
+----------
+> 
+> En resumen vimos como:
+> - Aprender qué es ciencia de datos, machine learning y big data
+> - Descubrir cómo integrar un equipo de datos para tu empresa
+> - Conocer el flujo de trabajo y herramientas para análisis de datos
+> - Transformar problemas de negocio en historias con Storytelling
+> - Tomar decisiones a partir de análisis cuanti-cualitativos
+> - Evaluar la implementación de tus hipótesis y estrategias

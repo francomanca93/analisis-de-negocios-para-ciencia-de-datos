@@ -35,6 +35,7 @@
     - [Hipótesis](#hipótesis)
     - [Analisis cuantitativo: aplicación](#analisis-cuantitativo-aplicación)
   - [Análisis cualitativo en un caso de negocio](#análisis-cualitativo-en-un-caso-de-negocio)
+  - [Fusión cuanti-cualitativa en un caso de negocio](#fusión-cuanti-cualitativa-en-un-caso-de-negocio)
 - [Problema de negocio: implementación](#problema-de-negocio-implementación)
 
 # El mundo de los datos: data science y machine learning
@@ -470,5 +471,20 @@ Afectando el 1% de los usuarios oro atacamos al 7% de las quejas.
 
 **Clasificación**: Definir los motivos detrás de los mensajes, cuando los hayamos clasificado dentro de una categoría profundizaremos en los motivos de contacto de una manera geolocalizada por lo que tendremos especificidad en cada contexto social.
 
+## Fusión cuanti-cualitativa en un caso de negocio
+
+> En resumen:
+> Los datos cuantitativos nos dicen qué clientes se quejaron y cuantas veces
+> Los datos cualitativos nos explican el motivo de su queja (devolución de dinero, problemas técnicos, dudas, etc)
+
+Resolver de manera conjunta la información cuantitativa y cualitativa para sacar conclusiones.
+
+Una vez que tenemos información sobre cuáles son las razones por las que los clientes nos contactan así como una clasificación de los top offenders vamos a ver por qué se queja cada uno de los tipos de top offenders para encontrar las claves del análisis.
+
+Para este análisis se utiliza **una tabla con un mapa de calor** para resaltar los porcentajes más elevados y poder concentrar nuestra atención en los problemas mayores más rapidamente.
+
+![](https://imgur.com/7e8qgSp.png)
+
+Se puede observar que los clientes menos experimentados quieren devoluciones y los clientes mas experimentados quieren soluciones a problemas tecnologicos y politicas de empresa. Se puede obsercar que los clientes experimetados son mas fieles.
 
 # Problema de negocio: implementación
